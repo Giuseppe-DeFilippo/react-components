@@ -10,11 +10,9 @@ function App() {
     <>
       <header><h1 className="text-center">il mio blog</h1></header>
       <main>< CardComponent /></main>
-      <footer>
-        <div className="text-bg-secondary p-3 text-center">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt iure aut dicta dolores exercitationem mollitia corporis odio nemo itaque sequi numquam, consectetur, aliquid natus eum commodi magnam quasi necessitatibus officia.</p>
-        </div>
-      </footer>
+      <footer className=" p-3 text-center custom-footer">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt iure aut dicta dolores exercitationem mollitia corporis odio nemo itaque sequi numquam, consectetur, aliquid natus eum commodi magnam quasi necessitatibus officia.</p>
+      </footer >
     </>
   )
 
